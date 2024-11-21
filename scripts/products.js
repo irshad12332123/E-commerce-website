@@ -54,7 +54,7 @@ const products = [
     price: '$670',
     rating: '45M+ ratings',
     imgSrc: 'ipad-pro-m1.jpg'
-  }
+  },
   
 ];
 

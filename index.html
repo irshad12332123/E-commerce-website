@@ -12,6 +12,11 @@
         <header>
           <nav>
             <span><div>Irshad</div></span>
+            <div class="menu-disp-class">
+              <span><img id="menu" src="/assets/images/menu.svg" alt="menu"></span>
+              <span><img style="display: none;" id="close" src="/assets/images/close.svg" alt="menu"></span>
+            </div>
+           
             <ul>
               <a href=""><li>Home</li></a>
               <a href=""><li>About</li></a>
@@ -31,14 +36,21 @@
             </div>
           </div>
           <div class="banner-pic">
-            <img src="assets/images/laptops.png" alt="banner-png">
             <img src="assets/images/smartphones.png" alt="banner-png">
           </div>
         </section>
+        <aside id="sidebar">
+          <ul>
+            <a href=""><li>Home</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Products</li> </a>
+            <a href=""><li>Contact</li></a>
+          </ul>
+        </aside>
       </div>   
       <main>
         <div id="inner-prod-frame" class="product-outer-frame">
-         <!-- Will be painted by javascript -->
+         <!-- Will be painted by products module -->
         </div>
       </main>
       <footer>
@@ -63,11 +75,8 @@
           </div>
           <div class="footer-social-media-sec">
             <p>Social media</p>
-            <div class="social-icons">
-              <img src="assets/images/instagram.svg" alt="instagram">
-              <img src="assets/images/discord.svg" alt="discord">
-              <img src="assets/images/facebook.svg" alt="facebook">
-              <img src="assets/images/github.svg" alt="github">
+            <div id="social-icon-frame" class="social-icons">
+              <!--Will be painted by socialMediaImages module -->
             </div>
           </div>
         </div>

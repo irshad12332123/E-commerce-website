@@ -268,7 +268,8 @@ section .banner-pic img{
   cursor: pointer;
 }
 
-@media screen and (max-width: 48px) {
+
+@media screen and (max-width: 600px) {
   .main .landing-page {
     position: relative;
     /* background-color: #fff; */

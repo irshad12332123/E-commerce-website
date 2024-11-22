@@ -33,7 +33,7 @@ products.forEach((prodObj) => {
 // This block is for painting the social media icons
 let imgHTML = ``;
 socialMediaImg.forEach((source)=>{  
-  let html = `<img src="../assets/images/${source.src}.svg" alt="${source.id}">`;
+  let html = `<img src="assets/images/${source.src}.svg" alt="${source.id}">`;
   imgHTML += html;  
   socialOuterFrame.innerHTML = imgHTML;
 })
@@ -45,11 +45,11 @@ menuIcon.addEventListener("click",(e)=>{
   menuIcon.style.display='none';
   closeIcon.style.display ='block'
   
-})
+})  // menu click event
 
 closeIcon.addEventListener("click",(e)=>{
   sideBar.style.display ="none";
   menuIcon.style.display='block';
   closeIcon.style.display ='none'
   
-})
+}) // close click event

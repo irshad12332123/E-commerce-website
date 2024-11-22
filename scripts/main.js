@@ -34,7 +34,7 @@ products.forEach((prodObj) => {
 let imgHTML = ``;
 socialMediaImg.forEach((source)=>{  
   let html = `<img src="../assets/images/${source.src}.svg" alt="${source.id}">`;
-  imgHTML += html;
+  imgHTML += html;  
   socialOuterFrame.innerHTML = imgHTML;
 })
 

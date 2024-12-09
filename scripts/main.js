@@ -6,7 +6,7 @@ let socialOuterFrame = document.querySelector("#social-icon-frame");//selecting 
 
 let menuIcon = document.querySelector("#menu");// selecting the menu icon
 
-let closeIcon = document.querySelector("#close");// selecting the menu icon
+let closeIcon = document.querySelector("#close");// selecting the close icon
 
 let sideBar = document.querySelector("#sidebar");// selecting the aside div
 

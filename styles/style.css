@@ -6,8 +6,8 @@
   font-family: Poppins;
 }
 body{
-  background-color: #404E5C;
-  padding: 2rem;
+  background-color: #fff;
+  /* padding: 0.5rem; */
 }
 a{
   text-decoration: none;
@@ -18,7 +18,7 @@ ul{
 }
 .main{
   min-height: 100vh;
-  background-color: #CF1259;
+  /* background-color: gray; */
 
 }
 .landing-page{
@@ -28,7 +28,7 @@ ul{
 }
 
 header{
-  background-color: #CF1259;
+  background-color: #B7C3F3;
   height: 4rem;
   width: 100%;
   display: flex;
@@ -97,6 +97,9 @@ section {
   transform: skew(-14deg);
   color: #B7C3F3;
 }
+.banner-text .inner-text-frame p:nth-child(2n-1),.banner-text .inner-text-frame p:nth-child(4){
+  color: #000;
+}
 
 .banner-text .inner-text-frame p:nth-child(4){
   font-size: 1rem;
@@ -111,7 +114,7 @@ aside {
   width: 10rem;
   border-radius: 3.15rem;
   background-color: #B7C3F3;
-  border: 0.1rem solid #CF1259;
+  /* border: 0.1rem solid #CF1259; */
   cursor: pointer;
   transition: background-color 400ms , border 400ms;
 }
@@ -121,16 +124,13 @@ aside {
 }
 .btn:hover{
   background-color: #CF1259;
-  border: 0.1rem solid #B7C3F3;
-  color : #fff;
+  /* border: 0.1rem solid #B7C3F3; */
 }
 
 .item{
   transition: transform 300ms;
 }
-.item:hover{
-  transform: scale(1.01);
-}
+
 .main main .product-outer-frame .item-inner-frame .cart-btn{
   border-radius: 0;
   border: 0px solid;
@@ -141,9 +141,12 @@ aside {
 section .banner-pic{
   width : 45%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 section .banner-pic img{
-  max-width : 64.8%;
+width: 100%;
 }
 .main main{
   width : 100%;
@@ -167,7 +170,8 @@ section .banner-pic img{
 
 .main main .product-outer-frame .item {
   margin: auto;
-  background-color:#fff;
+  /* background-color:#fff; */
+  border: 1px solid #000;
   min-height : 18rem;
   width : 15rem;
   transition: transform 300ms;
@@ -203,7 +207,7 @@ section .banner-pic img{
   font-weight: 600;
 }
 .main main .product-outer-frame .item-inner-frame p:nth-child(3){
-  color: #DD7596;
+  color: #000;
   font-weight: 400;
 }
 
@@ -215,13 +219,13 @@ section .banner-pic img{
  background-color:#CF1259;
 }
 .main footer {
-  min-height : 50vh;
+  min-height : 30vh;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #DD7596;
+  background-color: #B7C3F3;
 }
 
 .main footer .footer-outer-frame{

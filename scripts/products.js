@@ -4,7 +4,8 @@ const products = [
     name: "Galaxy Note 9 (Blue)",
     price: '$310',
     rating: '20M+ ratings',
-    imgSrc: 'phone.jpg'
+    imgSrc: 'phone.jpg',
+    socialIconSrc: ''
   },
   {
     id: 2,
@@ -40,21 +41,22 @@ const products = [
     price: '$1110',
     rating: '75M+ ratings',
     imgSrc: 's23-ultra.jpg'
-  },,
-  {
-    id: 7,
-    name: "Galaxy s23 ultra (black)",
-    price: '$1110',
-    rating: '75M+ ratings',
-    imgSrc: 's23-ultra.jpg'
   },
   {
-    id: 8,
+    id: 7,
     name: "Ipad pro m1 (silver)",
     price: '$670',
     rating: '45M+ ratings',
     imgSrc: 'ipad-pro-m1.jpg'
   },
+  {
+    id: 8,
+    name: "Iphone 12 (green)",
+    price: '$510',
+    rating: '25M+ ratings',
+    imgSrc: 'iphone.jpg'
+  },
+  
   
 ];
 
